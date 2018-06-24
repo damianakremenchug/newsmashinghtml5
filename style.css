@@ -1,0 +1,35 @@
+body { 
+	background-color: lightpink;
+	
+}
+
+.wrapper { 
+
+    
+    background-color: green;	
+}
+
+.wrapper h1 { 
+	color:blue;
+	text-align: center;
+}
+.wrapper p { 
+	color:orange;
+	text-align: center;
+}
+.wrapper2 p { 
+	color:orange;
+	text-align: center;
+}
+
+#p3 {
+	color: darkgrey;
+}
+h1{
+	color:blue;
+
+}
+
+h2 {
+	padding-right:
+}
