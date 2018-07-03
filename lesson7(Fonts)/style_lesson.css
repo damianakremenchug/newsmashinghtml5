@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #464F54;
+}
+
+article {
+	margin: 100px 50px 0 50px;
+	background-color: #fff;
+	padding: 200px 125px 45px 125px;
+}
+
+.p1 {
+	font-family: 'Proxima Nova';
+	margin-bottom: 50px;
+	line-height: 0.8;
+	color: #b4b4b4;
+}
+
+h1 {
+	font-size: 77px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	line-height: 0.7;
+}
+
+h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+	font-weight: 400;
+	font-style: italic;
+	color: #8f8f8f;
+	margin-bottom: 60px;
+	line-height: 0.8;
+}
+
+.p2, .p3 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 26px;
+	text-align: justify;
+}
+
+.p2 {
+	margin-bottom: 35px;
+}
+
+.p2 span {
+	font-style: italic;
+}

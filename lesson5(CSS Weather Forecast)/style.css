@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+
+body {
+	border: 16px #2B81AC solid;
+	background-color: #3399CC;
+	text-align: center;
+}
+
+header, footer {
+	display: inline-block;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	width: 55%;
+	margin: 15px 0 15px 0;
+}
+
+h2, footer p {
+	text-align: left;
+	color: white;
+}
+
+footer {
+	margin-bottom: 13vh;
+}
+
+main {
+	width: 55%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	border: 1px white solid;
+}
+
+.weatherlist {
+	background-color: white;
+	font-size: 0;
+}
+
+.weatherlist li {
+	box-sizing: border-box;
+	display: inline-block;
+	list-style: none;
+	border: 2px white solid;
+	padding: 20px;
+}
+
+.weatherlist li p {
+	word-wrap: break-word;
+	margin-bottom: 5px;
+	font-size: x-large;
+	color: white;
+}
+
+.weatherlist li span {
+	font-size: 20px;
+	
+}
+
+.weatherlist li span, .weatherlist li i {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.weatherlist li i {
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.list1 {
+	width: 50%;
+	background-color: #3399CC;
+}
+
+.list2 {
+	width: 25%;
+	background-color: #33CCCC;
+}
+
+.list3 {
+	width: 25%;
+	background-color: #996699;
+}
+
+.list4 {
+	width: 25%;
+	background-color: #C24747;
+}
+
+.list5 {
+	width: 25%;
+	background-color: #E2674A;
+}
+
+.list6 {
+	width: 25%;
+	background-color: #FFCC66;
+}
+
+.list7 {
+	width: 25%;
+	background-color: #99CC99;
+}
+
+.list8 {
+	width: 25%;
+	background-color: #669999;
+}
+
+.list9 {
+	width: 50%;
+	background-color: #CC6699;
+}
+
+.list10 {
+	width: 25%;
+	background-color: #339966;
+}
+
+.list11 {
+	width: 100%;
+	background-color: #666699;
+}
+
+.weatherlist li span::after {
+	content: '°C';
+	
+}
+
+.weatherlist:hover  li:not(:hover) {
+	opacity: 0.7;
+	transition: all .1s ease-in;
+}
+
+
