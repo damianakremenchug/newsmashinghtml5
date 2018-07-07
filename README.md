@@ -5,3 +5,4 @@
 + ## **Lesson 5** - [CSS Weather Forecast](https://damianakremenchug.github.io/newsmashinghtml5/5)
 + ## **Lesson 6** - [Huge Search](https://damianakremenchug.github.io/newsmashinghtml5/6)
 + ## **Lesson 7** - [Fonts](https://damianakremenchug.github.io/newsmashinghtml5/7)
++ ## **Lesson 8** - [Fonts](https://damianakremenchug.github.io/newsmashinghtml5/8)
