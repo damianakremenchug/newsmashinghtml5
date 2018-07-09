@@ -1,126 +1,109 @@
-polaroid {
-      position: relative;
+
+* {margin: 0; padding:0;
 }
 
-.polaroid img {
-      display: block;
-      margin: 0 auto;
-      border: 20px solid #fafafa;
-      border-top-width: 20px;
-      border-bottom-width: 20px;
-      bkit-box-shadow: 3px 3px 6px 4px #323e53;
-      -moz-box-shadow: 3px 3px 6px 4px #323e53;
-      box-shadow: 3px 3px 6px 4px #323e53;
-      width:18%;
-      }
-body { background-color:#a7c1cf; } 
- 
-h1{
+body {background: url("image/fon.jpg");
+}
+
+.block1 {width: 300px; 
+		float: left;
+		background:#5e5e66;
+		height: 256px;	
+}
+
+.block2{width:660px; 
+		float: right; 
+		height: 881px;
+		background: #eee;	
+}
+
+.block3{width: 300px;
+		 float: left;
+ 		background:#5e5e66;
+ 		height: 696px;
+}
+
+.block4{height: 71px;
+		width:660px;
+		float: left;
+		background:#a2adc2;
+ }
+
+.center {display: block;
+		 margin: 15px 50px; 
+}
+
+h2 {font-size: 16px;
+	font-family: 'IM Fell English SC', serif;
+	display: block; margin: 15px 70px;
+	color: #ffffff;	
+}
+
+h1 {font-size: 25px;
+	font-family: 'IM Fell English SC', serif;
+	display: block; margin: 15px 70px;
+	color: #5e5e66;
 	text-align: center;
-	background-color: #a7c1cf;
-	background-image:url('paper.gif')
-	}
-	.normal {font-variant:small-caps;}
-
-	h2 {text-align: center;
-	background-color: #a7c1cf;
-	}
-	.normal {font-variant:small-caps;	
-	}
-	.list {font-variant:small-caps;
-	text-align: center;	
-	}
-table {
-    width: 340px;
-    height: auto;
-    border-collapse: inherit;
-    background-color:#ccdde8;
-    }
-
-	.wrapper {
-	max-width:350px;
-	margin:auto;
-	}
-
-	.list{
-list-style: none;
-padding: 0;
-} 
-	.list li
-{
-padding: 5px 10px;
-background: linear-gradient(to left, #323e53 0%, white, #ffd000
-);
-border-bottom: 1px #267491;
-color: #267491;
-font-size: 20px;
-margin-bottom: 3px;
 }
 
-.top-menu {
-  margin: 0 60px;
-  position: relative;
-  background: #323e53;    
-  box-shadow: 
-    inset 1px 0 0 rgba(255,255,255,.1), 
-    inset -1px 0 0 rgba(255,255,255,.1), 
-    inset 150px 0 150px -150px rgba(255,255,255,.12), 
-    inset -150px 0 150px -150px rgba(255,255,255,.12);
+h3{ font-size: 20px;
+	font-family: 'IM Fell English SC', serif;
+	display: block; margin: 10px 15px;
+	color: #5e5e66;
+	text-align: left;
 }
-.top-menu:before,
-.top-menu:after {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  width: 100%;
-  height: 3px;
+.about {color: #ffffff;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 16px;
+		display: block; margin: 5px 30 px;
 }
-.top-menu:before {
-  top: 0;
-  border-bottom: 1px dashed rgba(255,255,255,.2);
+ul {padding-left: 5px; }
+
+li {color: #ffffff;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 16px;
+	display: block; margin: 10px 10px;
+ }
+
+a {text-decoration: underline;color:#ffffff}
+
+ol{color: #ffffff;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 14px;
+ 	text-align: left;
+ 	padding-left: 5px;
+ }
+
+p{ color: #5e5e66;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px; 
+	text-align: center;
+	display: block; 
+	margin: 0px 10px;
 }
-.top-menu:after {
-  bottom: 0;
-  border-top: 1px dashed rgba(255,255,255,.2);
+
+p1 { color: #5e5e66;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+	 text-align: justify;
+	 display: block; 
+	 margin: 0px 10px;
 }
-.menu-main {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
+
+td {color: #5e5e66;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
 }
-.menu-main:before, 
-.menu-main:after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 0;
-  top: 8px;
-  border-top: 18px solid #323e53;
-  border-bottom: 18px solid #323e53;
-  transform: rotate(360deg);
-  z-index: -1;
+
+.center {border: 2px solid #009ab0;border-radius:95px} 
+
+ul.menu-main {margin:0;padding: 20px;}
+
+ul.menu-main li { display: inline; 
+   				 margin-right: 25px; 
+    			padding: 10px;
+    			text-align: justify;
 }
-.menu-main:before {
-  left: -30px;
-  border-left: 12px solid rgba(255, 255, 255, 0);
-}
-.menu-main:after {
-  right: -30px;
-  border-right: 12px solid rgba(255, 255, 255, 0);
-}
-.menu-main li {
-  display: inline-block;
-  margin-right: -4px;
-}
-.menu-main a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 15px 30px;
-  font-family: 'PT Sans Caption', sans-serif;
-  color: white;
-  transition: .3s linear;
-}
-.menu-main a.current,
-.menu-main a:hover {background: rgba(0,0,0,.2);}
+
+ul.menu-main a {text-decoration: none;}
+
