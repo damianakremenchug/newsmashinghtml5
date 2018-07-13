@@ -8,5 +8,5 @@
 + ## **Lesson 7** - [Fonts](https://damianakremenchug.github.io/newsmashinghtml5/7)
 + ## **Lesson 8** - [I Love Design](https://damianakremenchug.github.io/newsmashinghtml5/8)
 + ## **Lesson 9(Photoshop)**
-  + ### ["Black&White"](https://damianakremenchug.github.io/newsmashinghtml5/10/index.html)
+  + ### ["Black&White"](https://damianakremenchug.github.io/newsmashinghtml5/9/index.html)
 + ## **Lesson 10** - [Chekers](https://damianakremenchug.github.io/newsmashinghtml5/10)
