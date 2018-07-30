@@ -10,3 +10,10 @@
 + ## **Lesson 9(Photoshop)**
   + ### ["Black&White"](https://damianakremenchug.github.io/newsmashinghtml5/9/index.html)
 + ## **Lesson 10** - [Chekers](https://damianakremenchug.github.io/newsmashinghtml5/10)
++ ## **Lesson 15 (Grids)** 
+ + ### ["Image Grid"](https://damianakremenchug.github.io/newsmashinghtml5/15/1)
+ + ### ["Akad About Us"](https://damianakremenchug.github.io/newsmashinghtml5/15/2)
++ ## **Lesson 16 (FlexBox)** 
+  + ### ["Cup Plans"](https://damianakremenchug.github.io/newsmashinghtml5/16/1)
+  + ### ["Blog Grid"](https://damianakremenchug.github.io/newsmashinghtml5/16/2)
++ ## **Lesson 18** - ["Design Lab"](https://damianakremenchug.github.io/newsmashinghtml5/18)

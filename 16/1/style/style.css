@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+
+@font-face {
+    font-family: "Miso";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Miso"), url("../font/miso.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Miso";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Miso Light"), url("../font/miso-light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Miso";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Miso Bold"), url("../font/miso-bold.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    background-image: url(../image/Layer.png);
+    height: 600px;
+    flex-basis: 1200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.card {
+    background-color: white;
+    flex-basis: 360px;
+    /* max-width: 360px; */
+    height: 441px;
+    flex-shrink: 2;
+    flex-grow: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 22px;
+    cursor: pointer;
+}
+
+.card--gold {
+    margin: 0 30px;
+}
+
+.card__price {
+    font-family: "Miso";
+    color: #02995b;
+    font-size: 70px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+/* .card__img {
+    margin-top: 5px;
+    margin-left: 15px;
+} */
+
+
+.card__name {
+    font-family: "Miso";
+    color: #333333;
+    font-size: 56px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+
+
+.card__description {
+    font-family: "Lato";
+    color: #333333;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 26px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    max-width: 175px;
+}
+
+.card:hover  {
+    height: 500px;
+    padding-top: 28px;
+    transition: ease-in-out 0.2s;
+} 
+
+/* .card--hover:hover .card__img--hover {
+    margin-top: 20px;
+    transition: ease-in-out 0.2s;
+} 
+
+.card--hover:hover .card__name--hover {
+    margin-top: 15px;
+    transition: ease-in-out 0.2s;
+} 
+
+.card--hover:hover .card__description--hover {
+    margin-bottom: 15px;
+    transition: ease-in-out 0.2s;
+}  */
